@@ -2,7 +2,7 @@
 
 ## Description
 
-In this demo I will illustrate how to upload an avatar to the server and render it out for the client. We'll use Express, together with **Multer** and image processor **sharp**. Images receive a unique name using **UUID**.
+In this demo I will illustrate how to upload an avatar to the server and render it out for the client. We'll use **Express**, together with **Multer** and image processor **sharp**. Images receive a unique name using **UUID**.
 
 Templating via **Handlebars**
 
