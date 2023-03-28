@@ -1,9 +1,10 @@
 # File Upload - Start
 
 ## Description
-This project is part of the course Programming 3 at Arteveldehogeschool Gent. This is the start code for the livecode demo we'll develop during class.
 
-In this demo we will illustrate how to upload an avatar to the server and render it out for the client. We'll use Express, together with **Multer** and image processor **sharp**.
+In this demo I will illustrate how to upload an avatar to the server and render it out for the client. We'll use Express, together with **Multer** and image processor **sharp**. Images receive a unique name using **UUID**.
+
+Templating via **Handlebars**
 
 ## Installation
 
@@ -19,9 +20,12 @@ $ npm run start:dev
 ```
 
 ## Useful references
+
 - [Multer](http://expressjs.com/en/resources/middleware/multer.html)
 - [sharp](https://sharp.pixelplumbing.com/)
+- [uuidv4](https://www.npmjs.com/package/uuidv4)
 
 ## Authors
+
 - Tim De Paepe
 - Frederick Roegiers
